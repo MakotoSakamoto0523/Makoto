@@ -5,7 +5,6 @@
         <title>Blog</title>
 
         <!-- Fonts -->
-
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     </head>
@@ -23,4 +22,6 @@
            <a href="/">戻る</a>
        </div>
     </body>
+
 </html>
+
