@@ -1,7 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+ <!DOCTYPE html>
+ <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
+        
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Index') }}
+        </h2>
+    </x-slot>
+    
         <title>Blog</title>
 
         <!-- Fonts -->
@@ -35,4 +43,9 @@
        </form>
        <div class='footer'>[<a href="/">戻る</a>]</div>
     </body>
-</html>
+
+ </html>
+</x-app-layout>
+
+
+       
