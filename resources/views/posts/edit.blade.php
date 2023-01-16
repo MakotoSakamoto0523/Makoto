@@ -2,6 +2,13 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
+        
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Index') }}
+        </h2>
+    </x-slot>
         <title>Blog</title>
 
         <!-- Fonts -->
@@ -25,4 +32,9 @@
            <input type="submit" value="保存"/>
        </form>
     </body>
+    
+</x-app-layout>
+
+  
+        
 </html>
